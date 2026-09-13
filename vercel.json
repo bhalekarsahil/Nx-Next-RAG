@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/keep-alive/project1",
+      "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/cron/keep-alive/project2",
+      "schedule": "0 0 * * *"
+    }
+  ]
+}

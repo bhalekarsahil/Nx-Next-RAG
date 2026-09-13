@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/demoRAG-e2e"
+    },
+    {
+      "path": "./apps/demoRAG"
+    },
+    {
+      "path": "./libs/vector-store"
+    }
+  ]
+}
